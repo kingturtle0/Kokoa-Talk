@@ -17,3 +17,9 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+.screen-header__new {
+  position: absolute;
+  right: 19px;
+  top: 50px;
+}
