@@ -31,3 +31,19 @@ body {
   top: 110px;
   padding: 0px var(--horizontal-space);
 }
+
+#splash-screen {
+  z-index: 3;
+}
+
+.status-bar {
+  z-index: 2;
+}
+
+.screen-header {
+  z-index: 1;
+}
+
+.alt-header {
+  z-index: 1;
+}
