@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Friends - CosmosTalk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -28,26 +28,35 @@
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span class="screen-header__new dot"></span>
+        <span>
+          <a href="settings.html">
+            <i class="fas fa-cog fa-lg"></i>
+          </a>
+        </span>
       </div>
     </header>
 
-    <a id="friends-display-link">
+    <a
+      id="friends-display-link"
+      href="https://nomadcoders.co/kokoa-clone"
+      target="_blank"
+    >
       <i class="fas fa-info-circle"></i>
-      Friends'Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
+      <img src="https://nomadcoders.co/m.svg" />
+      <span>Big Chance!! Kokoa Clone Challenge!!</span>
+      <i class="fas fa-chevron-right"></i>
     </a>
 
     <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="https://avatars.githubusercontent.com/u/115979198?v=4"
+            src="http://www.nasa.gov/centers/goddard/images/content/638831main_globe_east_2048.jpg"
             class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">Turtle</h4>
-            <!-- <h6 class="user-component__subtitle">text</h6> -->
+            <h4 class="user-component__title">Earth</h4>
           </div>
         </div>
         <div class="user-component__column"></div>
@@ -60,7 +69,7 @@
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="https://avatars.githubusercontent.com/u/115979198?v=4"
+              src="https://media.newyorker.com/photos/62d1db70ae139235b1b5fd2e/master/w_2560%2Cc_limit/Galchen-Telescope.jpg"
               class="user-component__avatar user-component__avatar--sm"
             />
             <div class="user-component__text">
@@ -71,10 +80,58 @@
           </div>
           <div class="user-component__column">
             <div>
-              <span>2</span>
+              <i class="fas fa-infinity fa-lg"></i>
               <i class="fas fa-chevron-right fa-xs"></i>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Friends</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component friend-component">
+          <div class="user-component__column">
+            <img
+              src="https://pbs.twimg.com/media/FgB6PRQXkAI6o54?format=jpg&name=900x900"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Sun
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component friend-component">
+          <div class="user-component__column">
+            <img
+              src="https://cdn.mos.cms.futurecdn.net/snbrHBRigvvzjxNGuUtcck.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Moon
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component friend-component">
+          <div class="user-component__column">
+            <img
+              src="https://solarsystem.nasa.gov/system/stellar_items/image_files/6_mars.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Mars
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
         </div>
       </div>
     </main>
@@ -107,11 +164,14 @@
     </nav>
 
     <div id="splash-screen">
-      <i class="fas fa-comment"></i>
+      <i class="fas fa-space-shuttle"></i>
     </div>
 
     <div id="no-mobile">
-      <span>Your screen is too big ㅠㅠ</span>
+      <img
+        src="https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_star-forming_region_carina_nircam_final-1280.jpg"
+      />
+      <span>Your screen is too big 😅</span>
     </div>
 
     <script

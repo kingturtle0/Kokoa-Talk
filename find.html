@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Clone</title>
+    <title>Find - CosmosTalk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -28,7 +28,11 @@
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span class="screen-header__new dot"></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span>
+          <a href="settings.html">
+            <i class="fas fa-cog fa-lg"></i>
+          </a>
+        </span>
       </div>
     </header>
 
@@ -63,10 +67,14 @@
             <i class="fas fa-chevron-right fa-xs"></i>
           </span>
         </div>
-        <div class="open-post">
+        <a
+          class="open-post"
+          href="https://www.google.com/search?q=james+webb"
+          target="_blank"
+        >
           <div class="open-post__column">
-            <h5 class="open-post__title">#BTS</h5>
-            <h6 class="open-post__hashtags">#bts#army#friends</h6>
+            <h5 class="open-post__title">#James Webb</h5>
+            <h6 class="open-post__hashtags">#universe#telescope#galaxy</h6>
             <div class="open-post__members">
               <img
                 src="https://avatars.githubusercontent.com/u/115979198?v=4"
@@ -79,42 +87,15 @@
           <div class="open-post__column">
             <div class="open-post__photo">
               <img
-                src="https://avatars.githubusercontent.com/u/115979198?v=4"
+                src="https://media.npr.org/assets/img/2022/07/12/southern-ring-nebula-2-_custom-60c7d16d9c36f085646be2dad4585892c783952d.jpg"
               />
               <div class="open-post__heart-count">
                 <i class="fas fa-heart fa-xs"></i>
-                <span>326</span>
+                <span>777</span>
               </div>
             </div>
           </div>
-        </div>
-        <div class="open-post">
-          <div class="open-post__column">
-            <h5 class="open-post__title">BTS Gang~</h5>
-            <h6 class="open-post__hashtags">
-              #englishonly #ipurpleyou #jimin #taeta...
-            </h6>
-            <div class="open-post__members">
-              <img
-                src="https://avatars.githubusercontent.com/u/115979198?v=4"
-              />
-              <span class="open-post__member-count">299 members</span>
-              <div class="divider"></div>
-              <span class="open-post__member-status">Active</span>
-            </div>
-          </div>
-          <div class="open-post__column">
-            <div class="open-post__photo">
-              <img
-                src="https://avatars.githubusercontent.com/u/115979198?v=4"
-              />
-              <div class="open-post__heart-count">
-                <i class="fas fa-heart fa-xs"></i>
-                <span>215</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        </a>
       </div>
     </main>
 
@@ -133,7 +114,6 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="find.html">
-            <span class="find_background"></span>
             <i class="fas fa-search fa-2x"></i>
           </a>
         </li>
@@ -146,8 +126,15 @@
       </ul>
     </nav>
 
+    <div id="splash-screen">
+      <i class="fas fa-space-shuttle"></i>
+    </div>
+
     <div id="no-mobile">
-      <span>Your screen is too big ㅠㅠ</span>
+      <img
+        src="https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_star-forming_region_carina_nircam_final-1280.jpg"
+      />
+      <span>Your screen is too big 😅</span>
     </div>
 
     <script

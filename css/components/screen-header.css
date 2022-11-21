@@ -1,5 +1,5 @@
 .screen-header {
-  background-color: white;
+  background-color: #2e363e;
   position: fixed;
   top: 0px;
   width: 100%;
@@ -35,5 +35,5 @@
 }
 
 .screen-header__icons .fa-cog:hover {
-  animation: rotateCog 1s linear infinite;
+  animation: rotateCog 0.7s linear infinite;
 }

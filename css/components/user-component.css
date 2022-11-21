@@ -1,5 +1,10 @@
 .user-component {
   justify-content: space-between;
+  border-radius: 15px;
+}
+
+.user-component:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .user-component,
@@ -51,4 +56,13 @@
 .user-component__time {
   display: block;
   margin-bottom: 10px;
+}
+
+.friend-component {
+  margin: 15px 0;
+  border-radius: 20px;
+}
+
+.friend-component:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
